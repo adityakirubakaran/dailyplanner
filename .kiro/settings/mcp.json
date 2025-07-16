@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "web-dev-tools": {
+      "command": "uvx",
+      "args": ["web-development-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": ["validate_html", "check_css", "lint_javascript"]
+    }
+  }
+}
